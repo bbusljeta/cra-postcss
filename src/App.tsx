@@ -1,6 +1,8 @@
+import "./css/app.css";
+import "normalize.css";
+
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
-import "./css/app.css";
 import { Routing } from "./modules/routing";
 
 function App() {
