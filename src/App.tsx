@@ -1,14 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './css/app.css';
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import "./css/app.css";
+import { Routing } from "./modules/routing";
 
 function App() {
   return (
-    <div>
-      <p className="test-class">
-          POSTCSS test
-      </p>
-    </div>
+    <BrowserRouter>
+      <Routing />
+    </BrowserRouter>
   );
 }
 
